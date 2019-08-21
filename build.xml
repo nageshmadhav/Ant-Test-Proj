@@ -15,6 +15,7 @@
 		<pathelement path="${work.home}"/>
 	</path>
 
+	
 	<target name="prepare"  description="Create working dirs and copy static files to work dir">
 		<mkdir  dir="${dist.home}"/>
 		<mkdir  dir="${work.home}/WEB-INF/classes"/>
